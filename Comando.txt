@@ -1,0 +1,30 @@
+comando para repositorio GitHub
+
+git status : Para ver el estado del repositorio..
+
+gid add :     Añade el archivo con asignándole el nombre y la extencion, pero nolo hace de forma definitiva,
+	      para eso debemos poner el siguiente comando:       
+
+git commit -m "entre estas comillas un texto descriptivo"   : Con este codigo cargamos nuestroarchivo al repositorio local.
+							      Luego debemos hacer un PUSH para pasarlo al repoitoroio remoto.
+
+
+git push -u origin master          : Con este codigo subimos los archivos al repositorio remoto. "origin" hace referenci a la carpeta que
+				     creamos para el repositorio local, y "master" hace referencia a la rama principal.
+
+
+git branch           		   : Muestra las ramas que tenemos creadas y nos muestra en que rama estamos posicionados
+
+git branch nombre    		   : En donde dice "nombre" debemos asignar un nombre para nuestra nueva rama. Por ejemplo: Rama1
+
+git branch -m Rama1 RamaFinal      : esta funcion reemplaza el nombre de una rama, escribimos en nombre de la rama, que siguiendo el codigo
+				     anterior era Rama1 y seguido le asignamos el nuevo nombre, en este ejemplo: "RamaFinal"
+
+
+git checkout RamaFinal		   : Con este codigo seleccionamos a RamaFinal como la rama con la que vamos a trabajar
+
+git branch -d RamaFinal		   : Con este codigo eliminamos la rama que creamos, con el nombre RamaFinal. Para poder realizar esta accion, debemos
+				     estar trabajando en una rama que no sea la que queremos eliminar.. (caso contrariohacer un checkout para cambiar de rama)
+
+
+
